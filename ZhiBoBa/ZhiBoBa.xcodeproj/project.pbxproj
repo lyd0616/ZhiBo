@@ -13,6 +13,7 @@
 		0429189A1FA22FFF0075AB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042918991FA22FFF0075AB01 /* Assets.xcassets */; };
 		0429189D1FA22FFF0075AB01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0429189B1FA22FFF0075AB01 /* LaunchScreen.storyboard */; };
 		042918A01FA22FFF0075AB01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429189F1FA22FFF0075AB01 /* main.m */; };
+		2926C4DBE9DB5342AE30E19B /* libPods-ZhiBoBa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53278A45BB5CB5DBC4054955 /* libPods-ZhiBoBa.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		0429189C1FA22FFF0075AB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0429189E1FA22FFF0075AB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0429189F1FA22FFF0075AB01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53278A45BB5CB5DBC4054955 /* libPods-ZhiBoBa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZhiBoBa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6479D8DCA7C8B08E263F87B5 /* Pods-ZhiBoBa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiBoBa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiBoBa/Pods-ZhiBoBa.debug.xcconfig"; sourceTree = "<group>"; };
+		FADC49D3D700639E71154A3E /* Pods-ZhiBoBa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiBoBa.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiBoBa/Pods-ZhiBoBa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2926C4DBE9DB5342AE30E19B /* libPods-ZhiBoBa.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				0429188F1FA22FFF0075AB01 /* ZhiBoBa */,
 				0429188E1FA22FFF0075AB01 /* Products */,
+				5416023C5529F6C7698EC9AC /* Pods */,
+				ED8C75803EA69FCAFFBBFC51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +78,23 @@
 			path = ZhiBoBa;
 			sourceTree = "<group>";
 		};
+		5416023C5529F6C7698EC9AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6479D8DCA7C8B08E263F87B5 /* Pods-ZhiBoBa.debug.xcconfig */,
+				FADC49D3D700639E71154A3E /* Pods-ZhiBoBa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED8C75803EA69FCAFFBBFC51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53278A45BB5CB5DBC4054955 /* libPods-ZhiBoBa.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 042918A31FA22FFF0075AB01 /* Build configuration list for PBXNativeTarget "ZhiBoBa" */;
 			buildPhases = (
+				CA605575C61FBD5619B4C924 /* [CP] Check Pods Manifest.lock */,
 				042918891FA22FFF0075AB01 /* Sources */,
 				0429188A1FA22FFF0075AB01 /* Frameworks */,
 				0429188B1FA22FFF0075AB01 /* Resources */,
+				512A2AB0104234EA8B80A7DB /* [CP] Embed Pods Frameworks */,
+				033E8EF0DC2BEF84B8BBA29A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,6 +163,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		033E8EF0DC2BEF84B8BBA29A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhiBoBa/Pods-ZhiBoBa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		512A2AB0104234EA8B80A7DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZhiBoBa/Pods-ZhiBoBa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA605575C61FBD5619B4C924 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		042918891FA22FFF0075AB01 /* Sources */ = {
@@ -276,6 +351,7 @@
 		};
 		042918A41FA22FFF0075AB01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6479D8DCA7C8B08E263F87B5 /* Pods-ZhiBoBa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +366,7 @@
 		};
 		042918A51FA22FFF0075AB01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FADC49D3D700639E71154A3E /* Pods-ZhiBoBa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
