@@ -357,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39UEF8V6TF;
 				INFOPLIST_FILE = ZhiBoBa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyd.ZhiBoBa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -372,6 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39UEF8V6TF;
 				INFOPLIST_FILE = ZhiBoBa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyd.ZhiBoBa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
