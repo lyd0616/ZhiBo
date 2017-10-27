@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		042918921FA22FFF0075AB01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042918911FA22FFF0075AB01 /* AppDelegate.m */; };
-		042918951FA22FFF0075AB01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042918941FA22FFF0075AB01 /* ViewController.m */; };
 		0429189A1FA22FFF0075AB01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042918991FA22FFF0075AB01 /* Assets.xcassets */; };
 		0429189D1FA22FFF0075AB01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0429189B1FA22FFF0075AB01 /* LaunchScreen.storyboard */; };
-		042918A01FA22FFF0075AB01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429189F1FA22FFF0075AB01 /* main.m */; };
 		04CBA9051FA233F500CCF559 /* AppPortalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CBA9041FA233F500CCF559 /* AppPortalManager.m */; };
-		04CBA90C1FA237A400CCF559 /* NSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CBA90B1FA237A400CCF559 /* NSTool.m */; };
 		04CBA90F1FA23B1B00CCF559 /* TabbarConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 04CBA90E1FA23B1B00CCF559 /* TabbarConfig.json */; };
 		04CBA9181FA23DC400CCF559 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CBA9171FA23DC400CCF559 /* UIImage+Color.m */; };
 		04CBA9211FA2DD7E00CCF559 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CBA91C1FA2DD7E00CCF559 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		04CBA9221FA2DD7E00CCF559 /* ZBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CBA91E1FA2DD7E00CCF559 /* ZBNavigationController.m */; };
 		04CBA9231FA2DD7E00CCF559 /* ZBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CBA9201FA2DD7E00CCF559 /* ZBTabBarViewController.m */; };
+		04CBA9271FA2DE4600CCF559 /* NSTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CBA9261FA2DE4600CCF559 /* NSTool.m */; };
+		04CBA92B1FA2DED500CCF559 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04CBA9291FA2DED500CCF559 /* Info.plist */; };
+		04CBA92C1FA2DED500CCF559 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CBA92A1FA2DED500CCF559 /* main.m */; };
 		2926C4DBE9DB5342AE30E19B /* libPods-ZhiBoBa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53278A45BB5CB5DBC4054955 /* libPods-ZhiBoBa.a */; };
 /* End PBXBuildFile section */
 
@@ -26,16 +26,10 @@
 		0429188D1FA22FFF0075AB01 /* ZhiBoBa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZhiBoBa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042918901FA22FFF0075AB01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		042918911FA22FFF0075AB01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		042918931FA22FFF0075AB01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		042918941FA22FFF0075AB01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		042918991FA22FFF0075AB01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0429189C1FA22FFF0075AB01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0429189E1FA22FFF0075AB01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0429189F1FA22FFF0075AB01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04CBA9031FA233F500CCF559 /* AppPortalManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppPortalManager.h; sourceTree = "<group>"; };
 		04CBA9041FA233F500CCF559 /* AppPortalManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppPortalManager.m; sourceTree = "<group>"; };
-		04CBA90A1FA237A400CCF559 /* NSTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSTool.h; sourceTree = "<group>"; };
-		04CBA90B1FA237A400CCF559 /* NSTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTool.m; sourceTree = "<group>"; };
 		04CBA90E1FA23B1B00CCF559 /* TabbarConfig.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TabbarConfig.json; sourceTree = "<group>"; };
 		04CBA9161FA23DC400CCF559 /* UIImage+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		04CBA9171FA23DC400CCF559 /* UIImage+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
@@ -46,6 +40,10 @@
 		04CBA91E1FA2DD7E00CCF559 /* ZBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBNavigationController.m; sourceTree = "<group>"; };
 		04CBA91F1FA2DD7E00CCF559 /* ZBTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBTabBarViewController.h; sourceTree = "<group>"; };
 		04CBA9201FA2DD7E00CCF559 /* ZBTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBTabBarViewController.m; sourceTree = "<group>"; };
+		04CBA9251FA2DE4600CCF559 /* NSTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTool.h; sourceTree = "<group>"; };
+		04CBA9261FA2DE4600CCF559 /* NSTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTool.m; sourceTree = "<group>"; };
+		04CBA9291FA2DED500CCF559 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CBA92A1FA2DED500CCF559 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		53278A45BB5CB5DBC4054955 /* libPods-ZhiBoBa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZhiBoBa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6479D8DCA7C8B08E263F87B5 /* Pods-ZhiBoBa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiBoBa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiBoBa/Pods-ZhiBoBa.debug.xcconfig"; sourceTree = "<group>"; };
 		FADC49D3D700639E71154A3E /* Pods-ZhiBoBa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZhiBoBa.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZhiBoBa/Pods-ZhiBoBa.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,18 +84,14 @@
 			isa = PBXGroup;
 			children = (
 				04CBA91A1FA2DD7E00CCF559 /* UIBase */,
+				04CBA9241FA2DE4600CCF559 /* Tools */,
+				04CBA9281FA2DED500CCF559 /* Supporting Files */,
 				042918901FA22FFF0075AB01 /* AppDelegate.h */,
 				042918911FA22FFF0075AB01 /* AppDelegate.m */,
-				042918931FA22FFF0075AB01 /* ViewController.h */,
-				042918941FA22FFF0075AB01 /* ViewController.m */,
 				042918991FA22FFF0075AB01 /* Assets.xcassets */,
 				0429189B1FA22FFF0075AB01 /* LaunchScreen.storyboard */,
-				0429189E1FA22FFF0075AB01 /* Info.plist */,
-				0429189F1FA22FFF0075AB01 /* main.m */,
 				04CBA9031FA233F500CCF559 /* AppPortalManager.h */,
 				04CBA9041FA233F500CCF559 /* AppPortalManager.m */,
-				04CBA90A1FA237A400CCF559 /* NSTool.h */,
-				04CBA90B1FA237A400CCF559 /* NSTool.m */,
 				04CBA9161FA23DC400CCF559 /* UIImage+Color.h */,
 				04CBA9171FA23DC400CCF559 /* UIImage+Color.m */,
 				04CBA9191FA23E4100CCF559 /* CommonDefines.h */,
@@ -124,6 +118,24 @@
 				04CBA9201FA2DD7E00CCF559 /* ZBTabBarViewController.m */,
 			);
 			path = UIBase;
+			sourceTree = "<group>";
+		};
+		04CBA9241FA2DE4600CCF559 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				04CBA9251FA2DE4600CCF559 /* NSTool.h */,
+				04CBA9261FA2DE4600CCF559 /* NSTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		04CBA9281FA2DED500CCF559 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CBA9291FA2DED500CCF559 /* Info.plist */,
+				04CBA92A1FA2DED500CCF559 /* main.m */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		5416023C5529F6C7698EC9AC /* Pods */ = {
@@ -204,6 +216,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CBA92B1FA2DED500CCF559 /* Info.plist in Resources */,
 				0429189D1FA22FFF0075AB01 /* LaunchScreen.storyboard in Resources */,
 				0429189A1FA22FFF0075AB01 /* Assets.xcassets in Resources */,
 				04CBA90F1FA23B1B00CCF559 /* TabbarConfig.json in Resources */,
@@ -265,15 +278,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042918951FA22FFF0075AB01 /* ViewController.m in Sources */,
-				04CBA90C1FA237A400CCF559 /* NSTool.m in Sources */,
-				042918A01FA22FFF0075AB01 /* main.m in Sources */,
 				04CBA9221FA2DD7E00CCF559 /* ZBNavigationController.m in Sources */,
 				042918921FA22FFF0075AB01 /* AppDelegate.m in Sources */,
 				04CBA9231FA2DD7E00CCF559 /* ZBTabBarViewController.m in Sources */,
 				04CBA9181FA23DC400CCF559 /* UIImage+Color.m in Sources */,
 				04CBA9211FA2DD7E00CCF559 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				04CBA9051FA233F500CCF559 /* AppPortalManager.m in Sources */,
+				04CBA92C1FA2DED500CCF559 /* main.m in Sources */,
+				04CBA9271FA2DE4600CCF559 /* NSTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +414,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39UEF8V6TF;
-				INFOPLIST_FILE = ZhiBoBa/Info.plist;
+				INFOPLIST_FILE = "ZhiBoBa/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyd.ZhiBoBa;
@@ -418,7 +430,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39UEF8V6TF;
-				INFOPLIST_FILE = ZhiBoBa/Info.plist;
+				INFOPLIST_FILE = "ZhiBoBa/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyd.ZhiBoBa;

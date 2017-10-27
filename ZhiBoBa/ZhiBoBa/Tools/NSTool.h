@@ -9,5 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface NSTool : NSObject
+
+/**
+ 获取mainBundel资源文件
+
+ @param filename <#filename description#>
+ @return <#return value description#>
+ */
 + (NSString *)bundlePath:(NSString *)filename;
 @end
