@@ -83,7 +83,7 @@
 		0429188F1FA22FFF0075AB01 /* ZhiBoBa */ = {
 			isa = PBXGroup;
 			children = (
-				04B0611D1FA2F4FA00628920 /* Video */,
+				04B0611D1FA2F4FA00628920 /* ZBBVideo */,
 				04B061211FA2F4FA00628920 /* ZBBData */,
 				04B0611F1FA2F4FA00628920 /* ZBBForum */,
 				04B061201FA2F4FA00628920 /* ZBBHome */,
@@ -104,11 +104,11 @@
 			path = ZhiBoBa;
 			sourceTree = "<group>";
 		};
-		04B0611D1FA2F4FA00628920 /* Video */ = {
+		04B0611D1FA2F4FA00628920 /* ZBBVideo */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Video;
+			path = ZBBVideo;
 			sourceTree = "<group>";
 		};
 		04B0611E1FA2F4FA00628920 /* ZBBJournalism */ = {
