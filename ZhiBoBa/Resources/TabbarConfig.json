@@ -1,0 +1,33 @@
+{
+    "backgroundImg":"",
+    "controllers":[{
+        "class":"HouseListViewController",
+        "img":"mtabbar_order",
+        "selectImg":"mtabbar_order_s",
+        "title":"订单"
+    },
+    {
+        "class":"HouseListViewController",
+        "img":"mtabbar_house",
+        "selectImg":"mtabbar_house_s",
+        "title":"房源"
+    },
+    {
+        "class":"MessageViewController",
+        "img":"mtabbar_msg",
+        "selectImg":"mtabbar_msg_s",
+        "title":"消息"
+    },
+    {
+        "class":"TJBMineViewController",
+        "img":"mtabbar_mine",
+        "selectImg":"mtabbar_mine_s",
+        "title":"我的"
+    },
+   {
+        "class":"MessageViewController",
+        "img":"mtabbar_msg",
+        "selectImg":"mtabbar_msg_s",
+        "title":"消息"
+   }]
+}
