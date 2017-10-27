@@ -83,6 +83,11 @@
 		0429188F1FA22FFF0075AB01 /* ZhiBoBa */ = {
 			isa = PBXGroup;
 			children = (
+				04B0611D1FA2F4FA00628920 /* Video */,
+				04B061211FA2F4FA00628920 /* ZBBData */,
+				04B0611F1FA2F4FA00628920 /* ZBBForum */,
+				04B061201FA2F4FA00628920 /* ZBBHome */,
+				04B0611E1FA2F4FA00628920 /* ZBBJournalism */,
 				04CBA91A1FA2DD7E00CCF559 /* UIBase */,
 				04CBA9241FA2DE4600CCF559 /* Tools */,
 				04CBA9281FA2DED500CCF559 /* Supporting Files */,
@@ -97,6 +102,41 @@
 				04CBA9191FA23E4100CCF559 /* CommonDefines.h */,
 			);
 			path = ZhiBoBa;
+			sourceTree = "<group>";
+		};
+		04B0611D1FA2F4FA00628920 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		04B0611E1FA2F4FA00628920 /* ZBBJournalism */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZBBJournalism;
+			sourceTree = "<group>";
+		};
+		04B0611F1FA2F4FA00628920 /* ZBBForum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZBBForum;
+			sourceTree = "<group>";
+		};
+		04B061201FA2F4FA00628920 /* ZBBHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZBBHome;
+			sourceTree = "<group>";
+		};
+		04B061211FA2F4FA00628920 /* ZBBData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ZBBData;
 			sourceTree = "<group>";
 		};
 		04CBA90D1FA23AF200CCF559 /* Resources */ = {

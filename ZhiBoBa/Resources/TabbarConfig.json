@@ -2,32 +2,32 @@
     "backgroundImg":"",
     "controllers":[{
         "class":"HouseListViewController",
-        "img":"mtabbar_order",
-        "selectImg":"mtabbar_order_s",
-        "title":"订单"
+        "img":"bar_zhibo",
+        "selectImg":"bar_zhiboed",
+        "title":"主页"
     },
     {
         "class":"HouseListViewController",
-        "img":"mtabbar_house",
-        "selectImg":"mtabbar_house_s",
-        "title":"房源"
+        "img":"bar_video",
+        "selectImg":"bar_videoed",
+        "title":"视频"
     },
     {
         "class":"MessageViewController",
-        "img":"mtabbar_msg",
-        "selectImg":"mtabbar_msg_s",
-        "title":"消息"
+        "img":"bar_news",
+        "selectImg":"bar_newsed",
+        "title":"新闻"
     },
     {
         "class":"TJBMineViewController",
-        "img":"mtabbar_mine",
-        "selectImg":"mtabbar_mine_s",
-        "title":"我的"
+        "img":"bar_news",
+        "selectImg":"bar_news",
+        "title":"论坛"
     },
    {
         "class":"MessageViewController",
-        "img":"mtabbar_msg",
-        "selectImg":"mtabbar_msg_s",
-        "title":"消息"
+        "img":"bar_shujued",
+        "selectImg":"bar_shujued",
+        "title":"数据"
    }]
 }
